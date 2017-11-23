@@ -181,7 +181,7 @@ Client.prototype.put = function (params, data, callback) {
   params = extend({}, params) || {};
 
   if (typeof data !== 'object') {
-    throw new ArgumentError('The data must be an object');
+    //throw new ArgumentError('The data must be an object');
   }
 
   var options = {
